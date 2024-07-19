@@ -1,0 +1,36 @@
+.note-container{
+  height: 100px;
+}
+
+.note-container h2{
+  margin-bottom: 20px;
+}
+
+.note-header{
+  display: flex;
+}
+
+.note-header nav{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 60rem;
+  gap: 30px;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(5, 22, 22);
+}
+
+.navbar-logo{
+  color: rgb(43, 109, 22);
+}
+.note-container_notes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
